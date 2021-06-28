@@ -1,3 +1,6 @@
+a{
+  text-decoration: none;
+}
 nav.navbar.navbar-expand.navbar-dark{
   margin-bottom: 2rem;
   padding: 0rem 3.5rem;
@@ -9,11 +12,12 @@ nav.navbar.navbar-expand.navbar-dark{
   right: 3.5rem;
 }
 
-button.ml-1.btn.btn-primary, button.ml-1.btn.btn-primary:active{
+.btn.btn-primary{
   background-color: #152c49;
 }
 
-button.ml-1.btn.btn-primary:focus{
+
+.btn.btn-primary:focus{
   box-shadow: none!important;
   border:none;
 }
@@ -21,4 +25,23 @@ button.ml-1.btn.btn-primary:focus{
 button.btn.btn-primary {
   background-color: #152c49;
   border:none;
+}
+
+
+.form{
+  padding:2rem;
+}
+
+.button{
+  background-color: #152c49;
+  padding:0.5rem;
+  cursor:pointer;
+  color: white;
+
+  border-radius: 5px;
+}
+
+.button:hover {
+  text-decoration: none;
+  color: white;
 }
